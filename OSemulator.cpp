@@ -12,7 +12,7 @@ void header();
 
 int main() {
     mainProgram();
-    std::exit(0);
+    //std::exit(0);
     return 0;
 }
 
