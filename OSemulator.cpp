@@ -1,12 +1,18 @@
 #include <iostream>
+#include <string>
 
 void colorFG(int nColor);
 void resetColor();
+void enterCommand();
+void clearScreen();
+void printColored(std::string str, int colorCode);
+void mainProgram();
 void header();
 
+
 int main() {
-    header();
-    
+    mainProgram();
+    std::exit(0);
     return 0;
 }
 
@@ -16,6 +22,68 @@ void colorFG(int nColor) {
 
 void resetColor() {
     std::cout << "\x1b[0m";
+}
+
+void enterCommand() {
+    std::cout << "Enter a command: ";
+}
+
+void clearScreen() {
+    std::cout << "\033[2J\033[1;1H";
+}
+
+void printColored(std::string str, int colorCode) {
+    colorFG(colorCode);
+
+    std::cout << str;
+
+    resetColor();
+}
+
+void mainProgram() {
+    std::string command;
+    header();
+
+    while (true) {
+        enterCommand();
+
+        std::getline(std::cin, command);
+
+        if (command.empty()) {
+            continue;
+        }
+        else if (command == "clear") {
+            clearScreen();
+            header();
+        }
+        else if (command == "initialize") {
+            printColored(command, 220);
+            std::cout << " command recognized. Doing something.\n" << std::endl;
+        }
+        else if (command == "screen") {
+            printColored(command, 220);
+            std::cout << " command recognized. Doing something.\n" << std::endl;
+        }
+        else if (command == "scheduler-test") {
+            printColored(command, 220);
+            std::cout << " command recognized. Doing something.\n" << std::endl;
+        }
+        else if (command == "scheduler-stop") {
+            printColored(command, 220);
+            std::cout << " command recognized. Doing something.\n" << std::endl;
+        }
+        else if (command == "report-util") {
+            printColored(command, 220);
+            std::cout << " command recognized. Doing something.\n" << std::endl;
+        }
+        else if (command == "exit") {
+            break;
+        }
+        else {
+            printColored(command, 220);
+            std::cout << " command unrecognized. Enter a valid command.\n" << std::endl;
+        }
+    }
 }
 
 void header() {
@@ -31,5 +99,4 @@ void header() {
     colorFG(220);
     std::cout << "Type 'exit' to quit, 'clear' to clear the screen." << std::endl;
     resetColor();
-    std::cout << "Enter a command: " << std::endl;
 }
