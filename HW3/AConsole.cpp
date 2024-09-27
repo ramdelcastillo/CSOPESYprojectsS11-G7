@@ -1,8 +1,10 @@
 #include "AConsole.h"
 
 /*
+
 Contributors:
 Del Castillo, Jose
+
 */
 
 typedef std::string String;
