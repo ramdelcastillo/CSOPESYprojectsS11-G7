@@ -4,10 +4,12 @@
 #include "ProcessConsole.h"
 
 /*
+
 Contributors:
 Atienza, Angelene
 Del Castillo, Jose
 Rivera, Jose
+
 */
 
 ConsoleManager* ConsoleManager::instance = nullptr; 
