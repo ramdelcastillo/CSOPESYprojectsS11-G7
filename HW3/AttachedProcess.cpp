@@ -2,8 +2,10 @@
 #include <iostream>
 
 /*
+
 Contributors:
 Padua, Alexandra
+
 */
 
 AttachedProcess::AttachedProcess()
