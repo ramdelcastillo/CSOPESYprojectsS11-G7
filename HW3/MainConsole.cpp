@@ -3,11 +3,13 @@
 #include "ConsoleManager.h"
 
 /*
+
 Contributors:
 Atienza, Angelene
 Del Castillo, Jose
 Rivera, Jose
 Padua, Alexandra
+
 */
 
 MainConsole::MainConsole()
