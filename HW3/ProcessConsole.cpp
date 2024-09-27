@@ -5,9 +5,11 @@
 #include <ctime>
 
 /*
+
 Contributors:
 Del Castillo, Jose
 Padua, Alexandra
+
 */
 
 ProcessConsole::ProcessConsole(std::shared_ptr<AttachedProcess> myProcess)
