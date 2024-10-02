@@ -18,11 +18,11 @@ int main() {
 	ConsoleManager* consoleManager = ConsoleManager::getInstance();
 	MainConsole mainConsole;
 
-	//consoleManager->createConsoleWOswitch("Salary-2019.exe");
-	//consoleManager->createConsoleWOswitch("thequickbrownfoxjumpsoverthelazydog");
-	//consoleManager->createConsoleWOswitch("Word.exe");
-	//consoleManager->createConsoleWOswitch("thisisaverylongconsolenameeeeeeeeeeeeeeeeeeeeeeeeeeeeee");
-	//consoleManager->createConsoleWOswitch("opesy.exe");
+	consoleManager->createConsoleWOswitch("Salary-2019.exe");
+	consoleManager->createConsoleWOswitch("thequickbrownfoxjumpsoverthelazydog");
+	consoleManager->createConsoleWOswitch("Word.exe");
+	consoleManager->createConsoleWOswitch("thisisaverylongconsolenameeeeeeeeeeeeeeeeeeeeeeeeeeeeee");
+	consoleManager->createConsoleWOswitch("opesy.exe");
 
 	mainConsole.header();
 
