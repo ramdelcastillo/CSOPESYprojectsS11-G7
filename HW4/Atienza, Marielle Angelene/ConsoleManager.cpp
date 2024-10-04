@@ -11,9 +11,9 @@
 #include <sstream> 
 
 struct Process {
-	int pid;                 
-	std::string type;        
-	std::string name;        
+	int pid;
+	std::string type;
+	std::string name;
 	std::string memoryUsage;
 };
 
@@ -106,6 +106,7 @@ void ConsoleManager::showListOfConsoles()
 void ConsoleManager::showCustomizedCLIlayout() {
 	// Get current time
 	std::string currentTime = getCurrentDateTime();
+	std::cout << currentTime << std::endl;
 
 	// Display GPU summary
 	std::cout << "+-----------------------------------------------------------------------------------------+\n";
@@ -127,7 +128,8 @@ void ConsoleManager::showCustomizedCLIlayout() {
 
 	if (processes.empty()) {
 		std::cout << "| No running processes found                                                              |\n";
-	} else {
+	}
+	else {
 		for (const auto& process : processes) {
 			std::string displayName = process.name;
 
@@ -151,7 +153,7 @@ std::string ConsoleManager::getCurrentDateTime() {
 	std::tm timeinfo;
 	localtime_s(&timeinfo, &now_time);
 	std::stringstream ss;
-	ss << std::put_time(&timeinfo, "%a %b %d %T %Y"); 
+	ss << std::put_time(&timeinfo, "%a %b %d %T %Y");
 	return ss.str();
 }
 
