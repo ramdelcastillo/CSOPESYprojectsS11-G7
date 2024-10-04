@@ -90,9 +90,6 @@ void MainConsole::processCommand(String command) {
             clearScreen();
             header();
         }
-        else if (command == "nvidia-smi") {
-			consoleManager->displayNvidiaSmi();
-        }
         else if (command == "initialize") {
             printColored(command, 0x06);
             std::cout << " command recognized. Doing something.\n" << std::endl;
@@ -113,11 +110,14 @@ void MainConsole::processCommand(String command) {
             printColored(command, 0x06);
             std::cout << " command recognized. Doing something.\n" << std::endl;
         }
+        else if (command == "nvidia-smi") {
+            consoleManager->displayNvidiaSmi();
+		}
         else if (command == "exit") {
             exit(0);
         }
         else if (command == "show") {
-            consoleManager->showListOfConsoles();
+            consoleManager->showListOfConsoles(); 
         }
         else {
             printColored(command, 0x06);

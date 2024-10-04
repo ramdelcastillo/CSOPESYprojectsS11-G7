@@ -5,7 +5,7 @@
 #include <ctime>
 
 ProcessConsole::ProcessConsole(std::shared_ptr<AttachedProcess> myProcess)
-    : AConsole("PROCESS_SCREEN_" + myProcess->getName()), thisProcess(myProcess) {
+    : AConsole("PROCESS_SCREEN_" + myProcess->getName()), thisProcess(myProcess), isRunning(false) {
 }
 
 void ProcessConsole::onEnabled()
