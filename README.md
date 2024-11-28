@@ -1,4 +1,4 @@
-## CSOPESY MO1 - Process Scheduler and CLI
+## CSOPESY MO2 - Multitasking OS
 
 ## Developers (S11 - Group 7)
 * Atienza, Marielle Angelene<br>
