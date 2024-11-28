@@ -13,7 +13,7 @@
    ![image](https://github.com/user-attachments/assets/88e0f0bf-9ca0-424b-aaec-dadf1178b40a)
 3. Unzip the Zip file  
 ![image](https://github.com/user-attachments/assets/00685948-0f8c-4653-aa8e-2329917eba34)
-4. Go to CSOPESYprojectsS11-G7-main\CSOPESYprojectsS11-G7-main\MO1 folder and click on Main.sln (Note that the project should be opened in Visual Studio 2022 IDE)  
+4. Go to CSOPESYprojectsS11-G7-main\CSOPESYprojectsS11-G7-main\MO2 folder and click on Main.sln (Note that the project should be opened in Visual Studio 2022 IDE)  
 ![image](https://github.com/user-attachments/assets/a149104c-d05f-4f91-8846-320524e0e8bb)
 5. Click on "Local Windows Debugger" at the top of the VS 2022 IDE to run the program and wait for it to compile.
 ![image](https://github.com/user-attachments/assets/ab4cf8ee-6743-4235-b9d7-7005b29b064c)
