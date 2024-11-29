@@ -14,14 +14,15 @@
 3. Unzip the Zip file  
 ![image](https://github.com/user-attachments/assets/00685948-0f8c-4653-aa8e-2329917eba34)
 4. Go to CSOPESYprojectsS11-G7-main\CSOPESYprojectsS11-G7-main\MO2 folder and click on Main.sln (Note that the project should be opened in Visual Studio 2022 IDE)  
-![image](https://github.com/user-attachments/assets/a149104c-d05f-4f91-8846-320524e0e8bb)
+![image](https://github.com/user-attachments/assets/22579c5f-2b30-4eeb-99db-f67c902b336b)
 5. Click on "Local Windows Debugger" at the top of the VS 2022 IDE to run the program and wait for it to compile.
 ![image](https://github.com/user-attachments/assets/ab4cf8ee-6743-4235-b9d7-7005b29b064c)
 6. Then the program is now running.  
-![image](https://github.com/user-attachments/assets/cc281098-4b15-4c03-bc9c-b86b9d0557b5)
+![image](https://github.com/user-attachments/assets/ca115d05-8b5d-4e8b-af9c-6a5d2080f2c4)
 
 ### Notes: The entry class file where main function is located is in: Main.cpp  
-![image](https://github.com/user-attachments/assets/4351947c-fe63-43c4-b95c-7bba3cc6d5cb)
+![image](https://github.com/user-attachments/assets/44547fd2-6034-4f8f-a75f-6ddcad93d1cd)
+
 
    
    
