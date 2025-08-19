@@ -1,3 +1,0 @@
-﻿  ConsoleApplication6.cpp
-C:\Users\alexa\source\repos\ConsoleApplication6\ConsoleApplication6\ConsoleApplication6.cpp(138,29): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
-  ConsoleApplication6.vcxproj -> C:\Users\alexa\source\repos\ConsoleApplication6\x64\Debug\ConsoleApplication6.exe
